@@ -1,6 +1,6 @@
 # Development Proposal
 This is a development proposal for Palimpsest Passage. The project will
-be divided into two parts for development.
+be divided into three parts for development.
 - Remove Background | Image Manipulation | Data Storage
 - Camera Integration
 - Arduino Integration
