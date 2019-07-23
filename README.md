@@ -7,8 +7,8 @@ be divided into three parts for development.
 
 I think the overall project will take me 10-16 hours to finish. I will log out specific things I've done with
 my working hours on Trello so that we are on the same page with the development process. My hourly rate is 50.
-I'll start working on the project to create a time-line with specific milestones and share it with you.
-Let me know if you have any question.
+I'll start working on the project to create a time-line with specific milestones and share it with you, if we agree to move forward with it.
+Please let me know if you have any question.
 
 ## Remove Background
 I will first use openCV's [watershed algorithms](https://en.wikipedia.org/wiki/Watershed_(image_processing))
