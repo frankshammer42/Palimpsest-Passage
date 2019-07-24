@@ -34,5 +34,5 @@ Depends on what cameras the project is gonna use, the difficulty varies. For sim
 tweaks with USB3 port. I have friends who have done projects with the exact Python/DSLR setting so it won't be a problem if we are going for that setup.
 
 ## Arduino Integration
-I will use [pyFirmata](https://pypi.org/project/pyFirmata/) to handle Arduino communication. I used the library for several my
+I will use [pyFirmata](https://pypi.org/project/pyFirmata/) to handle Arduino communication. The motion sensor will be connected to analog output pins on the Arduino board and the data will be directly read by the Python program to detect human movement. I used the library for several my
 own ITP projects and the library proves to be very robust.
