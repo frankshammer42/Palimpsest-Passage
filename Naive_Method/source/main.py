@@ -114,6 +114,18 @@ def additive_blending():
     cv2.imwrite("../result/result.png", result_img)
 
 
+def mog2():
+    while(1):
+        ret, frame = cap.read()
+        fgmask = fgbg.apply(frame)
+        cv2.imshow('frame',fgmask)
+        k = cv2.waitKey(30) & 0xff
+        if k == 27:
+          break
+    cap.release()
+    cv2.destroyAllWindows()
+
+
 def main():
     print("-----------------Running Palimpsest Passage------------------")
     prompt = "N: Set Up New Environment, P: Use the Previous Environment Setting, Q: Quit\n"
@@ -140,6 +152,7 @@ def main():
         
 
 if __name__=="__main__":
-    additive_blending()
+    mog2()
+    # additive_blending()
     # main()
     # main()
